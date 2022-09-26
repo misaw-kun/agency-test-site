@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="./script.js" defer></script>
+    <title>Agency Home Page</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-xl bg-light agency-navbar">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+            <img class="logo-image" src="./assets/images/brand_logo.png" alt="brand_logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex gap-4">
+              <li class="nav-item">
+                <a class="nav-link nav-link-color medium-text-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-color medium-text-bold" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-color medium-text-bold" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-color medium-text-bold" href="#">Portfolio</a>
+              </li>
+            </ul>
+            <button type="button" class="button-solid medium-text-bold align-self-center align-self-md-center ">
+              Contact
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- HERO SECTION -->
+      <div class="container">
+        <div
+          class="d-flex flex-column-reverse flex-lg-row flex-md-column-reverse flex-sm-column-reverse align-items-center gap-5">
+          <!-- left container -->
+          <div class="js-scroll slide-left d-flex justify-content-start align-items-md-center flex-column gap-4 w-75">
+            <h1 class="heading-1 text-md-center">We are the best agency in the world</h1>
+            <p class="normal-text-regular text-md-center">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <div class="d-flex justify-content-start gap-3">
+              <button type="button" class="button-solid">
+                Start a project
+              </button>
+              <button type="button" class="button-outline">Learn More</button>
+            </div>
+          </div>
+          <!-- right container w/image -->
+          <img class="js-scroll hero-image grow-in" src="./assets/images/hero_section.png" alt="hero-image" />
+        </div>
+      </div>
+
+      <!-- SERVICES SECTION -->
+      <div class="js-scroll blue-container fade-in-bottom">
+        <!-- service heading -->
+        <div class="d-flex justify-content-center flex-column align-items-start align-items-md-center gap-4">
+          <div class="d-flex flex-column gap-2 align-items-start align-items-lg-center align-items-md-center">
+            <h6 class="heading-6">Services</h6>
+            <h2 class="heading-2">We Provide</h2>
+          </div>
+          <p class="normal-text-regular text-lg-center text-md-center text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus
+            mattis nunc <br />
+            aliquam tincidunt est non. Viverra nec eu.
+          </p>
+        </div>
+
+        <!-- service cards -->
+        <div class="d-flex flex-column flex-lg-row align-items-center gap-3 flex-md-column flex-sm-column">
+          <div class="service-card">
+            <img src="./assets/images/web_design.png" alt="web_design" class="service-image" />
+            <h4 class="heading-4">Web Design</h4>
+            <caption class="small-text-regular">
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit.
+            </caption>
+          </div>
+          <div class="service-card">
+            <img src="./assets/images/ui_design.png" alt="web_design" class="service-image" />
+            <h4 class="heading-4">UI/UX Design</h4>
+            <caption class="small-text-regular">
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit.
+            </caption>
+          </div>
+          <div class="service-card">
+            <img src="./assets/images/graphic_designer.png" alt="graphic_designer" class="service-image" />
+            <h4 class="heading-4">Graphics Design</h4>
+            <caption class="small-text-regular">
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit.
+            </caption>
+          </div>
+          <div class="service-card">
+            <img src="./assets/images/seo.png" alt="seo_marketing" class="service-image" />
+            <h4 class="heading-4">SEO Marketing</h4>
+            <caption class="small-text-regular">
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit.
+            </caption>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT US SECTION (similar to hero) -->
+      <div class="js-scroll slide-left container">
+        <div
+          class="d-flex flex-column flex-lg-row flex-md-column justify-content-center align-items-center flex-sm-column">
+          <!-- left container w/image -->
+          <img class="hero-image grow-in" src="./assets/images/about_us.png" alt="hero-image" />
+
+          <!-- right container -->
+          <div class="d-flex justify-content-start align-items-md-center flex-column gap-2 p-5 p-lg-0">
+            <h6 class="heading-6">About Us</h6>
+            <h2 class="heading-2">We are a creative agency</h1>
+              <p class="normal-text-regular text-md-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec, luctus sapien vulputate urna tempor
+                euismod adipiscing massa. Volutpat nunc quis dictum consectetur egestas varius.
+              </p>
+              <button type="button" class="button-solid align-self-start align-self-md-center mt-3">
+                Start a project
+              </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXPERT SECTION -->
+      <div class="js-scroll blue-container slide-right">
+        <!-- expert heading -->
+        <div class="d-flex justify-content-center flex-column align-items-center gap-4">
+          <div class="d-flex flex-column gap-2 align-items-start align-items-lg-center align-items-md-center">
+            <h6 class="heading-6">Meet Our Team</h6>
+            <h2 class="heading-2">Our Expert Members</h2>
+          </div>
+          <p class="normal-text-regular text-left text-lg-center text-md-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam <br />vivamus pretium maecenas amet.
+          </p>
+        </div>
+
+        <!-- expert cards -->
+        <div class="d-flex flex-column flex-lg-row flex-md-column align-items-center gap-5 flex-sm-column">
+          <div class="about-card-container">
+            <img src="./assets/images/expert_1.png" alt="expert1" class="about-image">
+            <div class="js-scroll fade-in-bottom about-card">
+              <div class="d-flex gap-3">
+                <i class="icon ph-facebook-logo-bold"></i>
+                <i class="icon ph-pinterest-logo-bold"></i>
+                <i class="icon ph-dribbble-logo-bold"></i>
+                <i class="icon ph-instagram-logo-bold"></i>
+              </div>
+              <div class="d-flex flex-column">
+                <h5 class="heading-5 name">Jane Cooper</h5>
+                <p class="small-text-regular">Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-card-container">
+            <img src="./assets/images/expert_2.png" alt="expert1" class="about-image">
+            <div class="js-scroll fade-in-bottom about-card">
+              <div class="d-flex gap-3">
+                <i class="icon ph-facebook-logo-bold"></i>
+                <i class="icon ph-pinterest-logo-bold"></i>
+                <i class="icon ph-dribbble-logo-bold"></i>
+                <i class="icon ph-instagram-logo-bold"></i>
+              </div>
+              <div class="d-flex flex-column">
+                <h5 class="heading-5 name">John Doe</h5>
+                <p class="small-text-regular">Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-card-container">
+            <img src="./assets/images/expert_3.png" alt="expert1" class="about-image">
+            <div class="js-scroll fade-in-bottom about-card">
+              <div class="d-flex gap-3">
+                <i class="icon ph-facebook-logo-bold"></i>
+                <i class="icon ph-pinterest-logo-bold"></i>
+                <i class="icon ph-dribbble-logo-bold"></i>
+                <i class="icon ph-instagram-logo-bold"></i>
+              </div>
+              <div class="d-flex flex-column">
+                <h5 class="heading-5 name">Kristin Watson</h5>
+                <p class="small-text-regular">Photographer</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-card-container">
+            <img src="./assets/images/expert_4.png" alt="expert1" class="about-image">
+            <div class="js-scroll fade-in-bottom about-card">
+              <div class="d-flex gap-3">
+                <i class="icon ph-facebook-logo-bold"></i>
+                <i class="icon ph-pinterest-logo-bold"></i>
+                <i class="icon ph-dribbble-logo-bold"></i>
+                <i class="icon ph-instagram-logo-bold"></i>
+              </div>
+              <div class="d-flex flex-column">
+                <h5 class="heading-5 name">Jane Cooper</h5>
+                <p class="small-text-regular">Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PORTFOLIO SECTION -->
+      <div class="js-scroll slide-left blue-container portfolio-bg-color">
+        <!-- portfolio header heading -->
+        <div
+          class="d-flex justify-content-center flex-column align-items-start align-items-lg-center align-items-md-center gap-4">
+          <div class="d-flex flex-column gap-2 align-items-start align-items-lg-center align-items-md-center">
+            <h6 class="heading-6">Portfolio</h6>
+            <h2 class="heading-2">Our Recent Works</h2>
+          </div>
+          <p class="normal-text-regular text-left text-lg-center text-md-center w-75">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt mi blandit et ac elit eros, viverra.
+            Elementum pellentesque sed scelerisque pellentesque auctor accumsan, velit posuere eget.
+          </p>
+        </div>
+
+        <!-- portfolio cards -->
+        <div class="d-flex flex-column flex-lg-row flex-md-column flex-sm-column align-items-center gap-4">
+          <div class="portfolio-card">
+            <img src="./assets/images/portfolio_1.png" alt="portfolio-image" class="portfolio-image">
+            <div class="d-flex flex-column gap-3">
+              <h4 class="heading-4">Real estate websites</h4>
+              <caption class="small-text-regular">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim
+                viverra odio diam. Nascetur dui elementum,
+              </caption>
+              <button class="medium-text-regular button-portfolio">
+                Read More
+                <i class="ph-caret-right-bold"></i>
+              </button>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img src="./assets/images/portfolio_2.png" alt="portfolio-image" class="portfolio-image">
+            <div class="d-flex flex-column gap-3">
+              <h4 class="heading-4">Real estate websites</h4>
+              <caption class="small-text-regular">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim
+                viverra odio diam. Nascetur dui elementum,
+              </caption>
+              <button class="medium-text-regular button-portfolio">
+                Read More
+                <i class="ph-caret-right-bold"></i>
+              </button>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img src="./assets/images/portfolio_3.png" alt="portfolio-image" class="portfolio-image">
+            <div class="d-flex flex-column gap-3">
+              <h4 class="heading-4">Real estate websites</h4>
+              <caption class="small-text-regular">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim
+                viverra odio diam. Nascetur dui elementum,
+              </caption>
+              <button class="medium-text-regular button-portfolio">
+                Read More
+                <i class="ph-caret-right-bold"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="button-solid">See All Portfolio</button>
+      </div>
+
+      <!-- FAQ SECTION -->
+      <div class="js-scroll blue-container fade-in-bottom">
+        <div class="d-flex justify-content-center flex-column align-items-center gap-4">
+          <div class="d-flex flex-column gap-2 align-items-start align-items-lg-center align-items-md-center">
+            <h6 class="heading-6">FAQ's</h6>
+            <h2 class="heading-2">Find the answers you need</h2>
+          </div>
+        </div>
+
+        <div class="container mx-lg-5">
+          <div class="accordion accordion-flush d-flex flex-column gap-4" id="accordionFlushParent">
+
+            <div class="accordion-item p-lg-4 shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button medium-text-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushParent">
+                <div class="accordion-body small-text-regular p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper
+                  sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque
+                  elementum mattis ultrices.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item p-lg-4 shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button medium-text-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushParent">
+                <div class="accordion-body small-text-regular p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper
+                  sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque
+                  elementum mattis ultrices.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item p-lg-4 shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button medium-text-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushParent">
+                <div class="accordion-body small-text-regular p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper
+                  sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque
+                  elementum mattis ultrices.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item p-lg-4 shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button medium-text-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushParent">
+                <div class="accordion-body small-text-regular p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper
+                  sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque
+                  elementum mattis ultrices.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item p-lg-4 shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button medium-text-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushParent">
+                <div class="accordion-body small-text-regular p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper
+                  sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque
+                  elementum mattis ultrices.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- TESTIMONIALS -->
+      <div class="js-scroll container d-flex flex-column gap-5 fade-in">
+        <div class="d-flex flex-column align-items-md-center gap-3 px-5 p-lg-0">
+          <h2 class="heading-2">Customer Testimonials</h2>
+          <p class="small-text-regular text-md-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div
+          class="d-flex flex-column align-items-center align-items-lg-start flex-lg-row flex-md-column flex-sm-column gap-3">
+
+          <div class="js-scroll slide-left testimonial-card">
+            <div class="d-flex">
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+            </div>
+            <caption class="small-text-regular">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+              tristique. Duis
+              cursus, mi quis viverra ornare."
+            </caption>
+            <div class="d-flex flex-row gap-3">
+              <img class="avatar" src="/assets/images/avatar_1.png" alt="avatar">
+              <div class="d-flex flex-column justify-content-center">
+                <p class="normal-text-bold m-0">Jerome Bell</p>
+                <p class="normal-text-regular m-0">Marketing Coordinator</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="js-scroll slide-left testimonial-card">
+            <div class="d-flex">
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+            </div>
+            <caption class="small-text-regular">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+              tristique. Duis
+              cursus, mi quis viverra ornare."
+            </caption>
+            <div class="d-flex flex-row gap-3">
+              <img class="avatar" src="/assets/images/avatar_2.png" alt="avatar">
+              <div class="d-flex flex-column justify-content-center">
+                <p class="normal-text-bold m-0">Cody Fisher</p>
+                <p class="normal-text-regular m-0">President of Sales</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="js-scroll slide-left testimonial-card">
+            <div class="d-flex">
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+              <i class="ph-star-fill ph-2x"></i>
+            </div>
+            <caption class="small-text-regular">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+              tristique. Duis
+              cursus, mi quis viverra ornare."
+            </caption>
+            <div class="d-flex flex-row gap-3">
+              <img class="avatar" src="/assets/images/avatar_3.png" alt="avatar">
+              <div class="d-flex flex-column justify-content-center">
+                <p class="normal-text-bold m-0">Robert Fox</p>
+                <p class="normal-text-regular m-0">Web Designer</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CTA SECTION -->
+      <div class="js-scroll fade-in-bottom container cta-bg">
+        <div
+          class="d-flex flex-column flex-lg-row flex-md-column flex-sm-column justify-content-between align-items-center gap-2">
+          <div class="d-flex flex-column gap-3 mw-50">
+            <h4 class="heading-4 cta-text-color">Do you have a project in mind?</h4>
+            <p class="medium-text-regular cta-text-color">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit amet diam in est pharetra porttitor libero.
+            </p>
+          </div>
+          <button class="button-solid px-5 py-3">Let's Talk</button>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="container-fluid footer">
+        <div class="d-flex flex-column gap-4">
+          <img class="brand-logo" src="./assets/images/brand_logo.png" alt="brand_logo">
+          <caption class="medium-text-regular">
+            Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Molestie <br /> nulla massa fringilla.
+          </caption>
+          <div class="d-flex gap-3">
+            <i class="ph-twitter-logo-fill ph-lg footer-icon"></i>
+            <i class="ph-instagram-logo-fill ph-lg footer-icon"></i>
+            <i class="ph-linkedin-logo-fill ph-lg footer-icon"></i>
+            <i class="ph-youtube-logo-fill ph-lg footer-icon"></i>
+            <i class="ph-whatsapp-logo-fill ph-lg footer-icon"></i>
+            <i class="ph-behance-logo-bold ph-lg footer-icon"></i>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-4 w-25">
+          <h6 class="heading-6">Menu</h6>
+          <a href="#" class="footer-link medium-text-regular">Home</a>
+          <a href="#" class="footer-link medium-text-regular">About us</a>
+          <a href="#" class="footer-link medium-text-regular">Blog</a>
+          <a href="#" class="footer-link medium-text-regular">Blog post</a>
+          <a href="#" class="footer-link medium-text-regular">Contact</a>
+        </div>
+        <div class="d-flex flex-column gap-4 w-25">
+          <h6 class="heading-6">Utility Pages</h6>
+          <a href="#" class="footer-link medium-text-regular">Start Here</a>
+          <a href="#" class="footer-link medium-text-regular">Styleguide</a>
+          <a href="#" class="footer-link medium-text-regular">Password Protected</a>
+          <a href="#" class="footer-link medium-text-regular">404 Not Found</a>
+          <a href="#" class="footer-link medium-text-regular">Licenses</a>
+        </div>
+        <div class="d-flex flex-column gap-3">
+          <h6 class="large-text-bold">Subscribe to our newsletter</h6>
+          <caption class="medium-text-regular">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit am dolor sit.
+          </caption>
+          <input type="text" class="footer-input" placeholder="Enter your email" />
+          <button class="button-solid px-5 py-3 align-self-start">Subscribe</button>
+        </div>
+      </footer>
+    </main>
+  </body>
+
+</html>
